@@ -1,7 +1,7 @@
 #include "Button.h"
-#include "TComponent.h"
+#include "CppComponent.h"
 
-TButton::TButton(HWND hWnd, int left, int top, int width, int height, char *text, void (*OnClickCallback)(HWND)) {
+CppButton::CppButton(HWND hWnd, int left, int top, int width, int height, char *text, void (*OnClickCallback)(HWND)) {
 	component.component = CreateWindow(
 		"BUTTON", // имя класса (он уже зарегистрирован и настроен)
 		text, // текст

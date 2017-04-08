@@ -1,6 +1,6 @@
 #include "Edit.h"
 
-TEdit::TEdit(HWND hwnd, int left, int top, int width, int height, void(*OnClickCallback)(HWND)) {
+CppEdit::CppEdit(HWND hwnd, int left, int top, int width, int height, void(*OnClickCallback)(HWND)) {
 	component.component = CreateWindow(
 		"EDIT",
 		NULL,

@@ -39,10 +39,10 @@
     <ClCompile Include="Note.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TComponent.cpp">
+    <ClCompile Include="BaseWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BaseWindow.cpp">
+    <ClCompile Include="CppComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -68,10 +68,10 @@
     <ClInclude Include="Note.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TComponent.h">
+    <ClInclude Include="BaseWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BaseWindow.h">
+    <ClInclude Include="CppComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,10 +2,10 @@
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
-#include "TComponent.h"
+#include "CppComponent.h"
 #include <map>
 
-typedef std::map<HWND, std::map<std::string, TComponent*>> ComponentsMap;
+typedef std::map<HWND, std::map<std::string, CppComponent*>> ComponentsMap;
 
 class BaseWindow { 
 protected:
@@ -19,7 +19,7 @@ protected:
 
 	
 	static ComponentsMap _components;
-	static TComponent *GetComponent(HWND parent, std::string name);
+	static CppComponent *GetComponent(HWND parent, std::string name);
 	static std::map<HWND, BaseWindow*> _windows;
 
 public:
@@ -27,7 +27,7 @@ public:
 	BaseWindow(HINSTANCE hInstance, int nCmdShow);
 	virtual ~BaseWindow();
 	MSG ListenMessages() const;
-	void AddComponent(std::string name, TComponent *comp);
+	void AddComponent(std::string name, CppComponent *comp);
 	void SetEnabled(bool enabled);
 	void SetActive();
 	HWND getHWND();

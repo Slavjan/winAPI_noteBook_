@@ -1,7 +1,7 @@
 #pragma once
-#include "TComponent.h"
+#include "CppComponent.h"
 
-class TButton : public TComponent {
+class CppButton : public CppComponent {
 public:
-	TButton(HWND hWnd, int left, int top, int width, int height, char *text, void (*OnClickCallback)(HWND));
+	CppButton(HWND hWnd, int left, int top, int width, int height, char *text, void (*OnClickCallback)(HWND));
 };

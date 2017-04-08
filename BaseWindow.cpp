@@ -53,11 +53,11 @@ MSG BaseWindow::ListenMessages() const {
 	return msg;
 }
 
-void BaseWindow::AddComponent(std::string name, TComponent *comp) {
+void BaseWindow::AddComponent(std::string name, CppComponent *comp) {
 	_components[hwnd][name] = comp;
 }
 
-TComponent *BaseWindow::GetComponent(HWND parent, std::string name) {
+CppComponent *BaseWindow::GetComponent(HWND parent, std::string name) {
 	if (!_components.count(parent)) return nullptr;
 	if (!_components[parent].count(name)) return nullptr;
 	return _components[parent][name];

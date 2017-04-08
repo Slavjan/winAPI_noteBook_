@@ -12,7 +12,7 @@ private:
 public:
 	ChildWindow(HINSTANCE hInstance, HWND parent, int nCmdShow, int extra = NULL);
 	virtual ~ChildWindow();
-	int GetExtra();
+	int getNoteId();
 	static void ButtonSaveClick(HWND sender);
 };
 

@@ -118,7 +118,7 @@
     <ClCompile Include="main3.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="Note.cpp" />
-    <ClCompile Include="TComponent.cpp" />
+    <ClCompile Include="CppComponent.cpp" />
     <ClCompile Include="BaseWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -129,7 +129,7 @@
     <ClInclude Include="ListBox.h" />
     <ClInclude Include="MainWindow.h" />
     <ClInclude Include="Note.h" />
-    <ClInclude Include="TComponent.h" />
+    <ClInclude Include="CppComponent.h" />
     <ClInclude Include="BaseWindow.h" />
   </ItemGroup>
   <ItemGroup>

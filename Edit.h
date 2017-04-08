@@ -1,7 +1,7 @@
 #pragma once
-#include "TComponent.h"
+#include "CppComponent.h"
 
-class TEdit : public TComponent {
+class CppEdit : public CppComponent {
 public:
-	TEdit(HWND hwnd, int left, int top, int width, int height, void (*OnClickCallback)(HWND));
+	CppEdit(HWND hwnd, int left, int top, int width, int height, void (*OnClickCallback)(HWND));
 };

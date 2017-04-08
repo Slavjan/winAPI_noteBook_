@@ -17,3 +17,10 @@ public:
 	MainWindow(HINSTANCE hInstance, int nCmdShow);
 	virtual ~MainWindow();
 };
+
+namespace mainCmpNames{
+    const std::string btnAdd = "BUTTONADD";
+    const std::string btnDel = "BUTTONDEL";
+    const std::string editTitle = "editTitle";
+    const std::string listBox = "listBox";
+}
